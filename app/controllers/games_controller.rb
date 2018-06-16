@@ -1,8 +1,18 @@
 class GamesController < ApplicationController
-    def list
-    end
+
     def index
         @games = Game.all
-        byebug
     end
+
+    def new
+        @game = Game.new
+    end
+    def create
+        Game.create(game_params)
+    end
+        
+        private
+            def game_params
+                params.require(:game).permit(:name, :release_date, :platform)
+            end
 end

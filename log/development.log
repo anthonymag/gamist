@@ -1161,3 +1161,684 @@ Processing by GamesController#index as HTML
 Completed 200 OK in 209ms (Views: 163.4ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for 10.0.2.2 at 2018-06-16 00:29:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (5.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#index as HTML
+  Rendering users/index.html within layouts/application
+  Rendered users/index.html within layouts/application (2.9ms)
+Completed 200 OK in 598ms (Views: 570.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-06-16 01:03:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#index as HTML
+  Rendering users/index.html within layouts/application
+  Rendered users/index.html within layouts/application (0.2ms)
+Completed 200 OK in 108ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videogames" for 10.0.2.2 at 2018-06-16 01:21:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#list as HTML
+  Rendering games/list.html within layouts/application
+  Rendered games/list.html within layouts/application (0.3ms)
+Completed 200 OK in 103ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-06-16 01:42:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.erb within layouts/application
+  [1m[36mGame Load (2.6ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.erb:3
+  Rendered games/index.erb within layouts/application (10.9ms)
+Completed 200 OK in 130ms (Views: 98.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/games" for 10.0.2.2 at 2018-06-16 01:42:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#index as HTML
+  Rendering games/index.erb within layouts/application
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.erb:3
+  Rendered games/index.erb within layouts/application (1.6ms)
+Completed 200 OK in 122ms (Views: 103.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 01:55:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (0.3ms)
+Completed 200 OK in 103ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 01:56:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (0.3ms)
+Completed 200 OK in 94ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:03:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (30.6ms)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142655599880'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:04:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142840676640'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:05:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/vagrant/gamist/app/views/games/new.erb:2: syntax error, unexpected keyword_do_block
+...fer.append=  form_for @game, do |f| @output_buffer.safe_appe...
+...                             ^~
+/vagrant/gamist/app/views/games/new.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/games/new.erb:2: syntax error, unexpected keyword_do_block
+app/views/games/new.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:05:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for(@game) do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142840776980'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:06:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for(@game) do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142834997400'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:06:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (13.5ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142620969300'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142837430700'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142722644840'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (11.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  [1m[35m (23.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering games/new.erb within layouts/application
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (228.9ms)
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 611ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+  Rendered games/new.erb within layouts/application (49.4ms)
+Completed 500 Internal Server Error in 598ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142839337100'
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142839337100'
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (42.6ms)
+Completed 500 Internal Server Error in 481ms (ActiveRecord: 0.0ms)
+
+
+  Rendering games/new.erb within layouts/application
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  Rendered games/new.erb within layouts/application (18.9ms)
+  
+Completed 500 Internal Server Error in 220ms (ActiveRecord: 0.0ms)
+
+
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142839063660'
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142839063660'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142620917300'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_47462244370420'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:41 +0000
+Processing by GamesController#new as HTML
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:07:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (28.1ms)
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 509ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142655189720'
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (35.9ms)
+Completed 500 Internal Server Error in 380ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142654989580'
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (51.8ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142654989580'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (16.5ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142832381780'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (15.1ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1118207470524755922_70142840506360'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.1ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:10:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/games_controller.rb:9:in `new'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:11:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (16.7ms)
+Completed 200 OK in 415ms (Views: 378.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:22:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (18.4ms)
+Completed 200 OK in 482ms (Views: 424.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:22:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (1.0ms)
+Completed 200 OK in 129ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:22:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (1.1ms)
+Completed 200 OK in 132ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/games" for 10.0.2.2 at 2018-06-16 02:23:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WCaSOsq+zYICPWhrAFp2ZiHujG+z+OK/1v0dPQFvpH2NgUEVKIBvBmWLIeuETlVbqXAU0+v1hDW8UC/ViQ1YYg==", "game"=>{"name"=>"Red Dead Redemption 2", "platform"=>"PS4", "release_date"=>"2018-10-26"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/games_controller.rb:11
+  [1m[36mGame Create (1.3ms)[0m  [1m[32mINSERT INTO `games` (`name`, `release_date`, `created_at`, `updated_at`, `platform`) VALUES ('Red Dead Redemption 2', '2018-10-26', '2018-06-16 02:23:25', '2018-06-16 02:23:25', 'PS4')[0m
+  ↳ app/controllers/games_controller.rb:11
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/games_controller.rb:11
+No template found for GamesController#create, rendering head :no_content
+Completed 204 No Content in 978ms (ActiveRecord: 2.6ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  `games`.* FROM `games` LIMIT 11[0m
+Started GET "/" for 10.0.2.2 at 2018-06-16 02:25:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.erb within layouts/application
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT `games`.* FROM `games`[0m
+  ↳ app/views/games/index.erb:3
+  Rendered games/index.erb within layouts/application (9.0ms)
+Completed 200 OK in 421ms (Views: 392.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:25:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (28.5ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1641759902310191843_70044340017840'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:26:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1641759902310191843_70044418319940'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:26:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1641759902310191843_70044306425180'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:27:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1641759902310191843_70044272880700'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:27:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: 
+    2: <%= form_for @game, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.text_field :platform %>
+    5:     <%= f.date_field :release_date %>
+  
+app/views/games/new.erb:2:in `_app_views_games_new_erb__1641759902310191843_70044420942160'
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 02:27:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (9.1ms)
+Completed 200 OK in 443ms (Views: 402.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/games/new" for 10.0.2.2 at 2018-06-16 22:59:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/ubuntu/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#new as HTML
+  Rendering games/new.erb within layouts/application
+  Rendered games/new.erb within layouts/application (1.0ms)
+Completed 200 OK in 128ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+

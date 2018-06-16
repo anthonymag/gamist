@@ -1,0 +1,7 @@
+
+<%= form_for @game, url: {action: "create"} do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_field :platform %>
+    <%= f.date_field :release_date %>
+    <%= f.submit "Create" %>
+  <% end %>
